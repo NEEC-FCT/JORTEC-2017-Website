@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Workshops</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/stuck.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/touchTouch.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<style>
+.dropbtn {
+    background-color: #282828;
+    color: #969696;
+    
+    padding: 0px 0px 0px;
+    border: none;
+    
+    display: inline-block;
+    
+    font: bold 20px/20px 'Economica', sans-serif;
+    
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #282828;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+<script>
+ $(document).ready(function(){
+
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});
+  $('.gallery .gall_item').touchTouch();
+
+  }); 
+</script>
+<!--[if lt IE 9]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+
+
+<![endif]-->
+</head>
+
+<body>
+<!--==============================
+              header
+=================================-->
+<header style="background-color:#282828;">
+<!--==============================
+            Stuck menu
+=================================-->
+  <section id="stuck_container" style="background-color:#282828;">
+    <div class="container" style="background-color:#282828;" >
+      <div class="row" style="background-color:#282828;">
+        <div class="grid_12">
+        <h1>
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo alt">
+          </a>
+        </h1>  
+          <div class="navigation ">
+            <nav>
+              <ul class="sf-menu">
+               <li><a href="index.html">Home</a></li>
+               <li><a href="index-1.html">Oradores</a></li>
+                             <li > <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn" >   Edições anteriores </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index-3.html#jortec16">JORTEC 2016</a>
+    <a href="index-3.html#jortec15">JORTEC 2015</a>
+    <a href="index-3.html#jortec14">JORTEC 2014</a>
+	 <a href="index-3.html#jortec13">JORTEC 2013</a>
+	  <a href="index-3.html#jortec12">JORTEC 2012</a>
+  </div>
+</div><a href="index-3.html">  </a></li>
+			   <li class="current"><a href="workshop.html"> <font color="#9eefad" >Workshops</font></a></li>
+			   <li ><a href="patrocinadores.html">    Sponsors  </a></li>
+               <li><a href="index-4.html">Contactos</a></li>
+             </ul>
+            </nav>        
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+</header>        
+
+<!--=====================
+          Content
+======================-->
+<section class="content gallery pad1"><div class="ic">Workshops</div>
+  <div class="container">
+    
+	   <h2><center>Sexta-feira<center></h2>
+	   <br>
+	   <center>
+
+    <div class="row">
+	   <div class="grid_2" >
+	  
+
+      </div>
+
+      <div class="grid_4" >
+	  
+	  
+	
+        <div class="gall_block">
+          <div class="maxheight">
+		  
+            <a href="images/Arduino.png" class="gall_item"><img src="images/Arduino.png" alt=""></a>
+            
+			<div class="gall_bot">
+		
+			<br>
+           <center> <div class="text1"><a href="#">Arduino</a></div>
+	Sexta-feira de  manhã 9h30
+	<br>
+	Lab 3.1 ed.X
+		 <br> <br>   
+		 Este workshop é direcionado a utilizadores que queiram aprender o nível básico de Arduino.
+Durante este workshop vai ser apresentado aos participantes o Arduíno, mostrando de forma prática como utilizar este tipo de placa. Irá ser introduzido o ambiente de desenvolvimento utilizado pelo Arduíno, tal como o Software para o programar e respectiva linguagem. Para além do já referido será dado uma noção básica de electrónica relacionada com o uso desta tecnologia.
+<br>
+		   <a href="WS Arduino.zip"  download="WS Arduino.zip" class="btn">Fotos</a>
+        
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/Impressao3D.png" class="gall_item"><img src="images/Impressao3D.png" alt=""></a>
+            <div class="gall_bot">
+			<br>
+            <div class="text1">Impressão 3D by Blocks</a></div>
+            Sexta-feira de  Tarde 14h00
+            <br>
+			Lab 3.1 ed.X
+			 <br><br>
+RepRap é a família de impressoras 3D que conseguem imprimir as peças plásticas de si próprias. São impressoras 3D completamente open source, desenvolvidas por uma comunidade muito activa. Durante o dia do workshop, vais aprender de A a Z como funciona a impressora, como ajustá-la, como usá-la. A impressora onde vamos aprender é a Blocks ZERO e a Blocks ONE
+<br>			
+<br><br> 
+		   <a href="WS Blocks.zip" download="WS Blocks.zip" class="btn">Fotos</a>
+        
+           </div>
+          </div>
+        </div>
+		
+      </div>
+ 
+             
+        
+ 
+      <div class="clear sep__1"></div>
+	  <h2><center> Segunda-feira</center></h2>
+	   <br>
+        <div class="grid_2" >
+	  
+	  
+	
+    
+      </div>
+   
+        <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/DesignThinkingNB.png" class="gall_item"><img src="images/DesignThinkingNB.png" alt=""></a>
+            <div class="gall_bot">
+			<br>
+            <div class="text1">Design Thinking by Novabase</a></div>
+            Segunda-feira de  manhâ 9h30
+                <br>
+			Auditório 2B ed.VII
+			 <br><br>
+Design thinking  é um método criativo de resolução de problemas focado em soluções centradas nas pessoas e nas suas reais necessidades, ou seja é um veículo para gerar inovação.
+O conceito foi popularizado pela Universidade de Stanford e adaptado por David Kelley, ex-aluno de Stanford e fundador da IDEO – uma das mais importantes consultoras globais de design e inovação.
+ 
+Nuno Abrantes, Manager de Business Design da Novabase e coach de Design Thinking, formado pelo DesignThinkers Group convida-nos a desenhar novas maneiras de pensar em soluções para problemas com base num exercício prático desenvolvido para o curso executivo de Design Thinking da D School de Stanford.
+<br>			 
+		   <a href="NovaBase.zip" download="NovaBase.zip" class="btn">Fotos</a>
+        
+           </div>
+          </div>
+        </div>
+		
+      </div>
+	  
+	    <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/SensCommunicationKPMG.png" class="gall_item"><img src="images/SensCommunicationKPMG.png" alt=""></a>
+            <div class="gall_bot">
+			<br>
+            <div class="text1">Sensor Communication by KPMG</a></div>
+            Segunda-feira de  Tarde 14h00
+            <br>
+				Auditório 2B ed.VII
+			 <br>  
+		  <a href="KPMG.zip" download="KPMG.zip" class="btn">Fotos</a>
+        
+           </div>
+          </div>
+        </div>
+		
+      </div>
+	  
+	  
+	  
+
+      <div class="clear sep__1">
+	  
+	  </div>
+	  <h2> Terça-feira </h2>
+	  <br>
+      <div class="grid_2">
+      
+      </div>
+        <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/MontarPC.png" class="gall_item"><img src="images/MontarPC.png" alt=""></a>
+            <div class="gall_bot">
+			<br>
+            <div class="text1">Como montar um PC?</a></div>
+            Terça-feira de  manhã 9h30
+             <br>
+				Lab 3.1 ed.X
+			 <br>  <br>
+			 Quem é que hoje em dia não usa computador? Pois está certo, mas e será que sabem o que lá está dentro? Este workshop vai ensinar-te o que precisas de saber, desde que tipo de peças existem, como comparar as suas características, como escolher os componentes certos e verificar a compatibilidade entre eles. Para além disso vais ter oportunidade de aprender a montar as peças e aprender que cuidados deves ter ao fazê-lo. 
+			 <br><br>  <br><br>
+		   <a href="" class="btn">Esgotado</a>
+        
+           </div>
+          </div>
+        </div>
+		
+      </div>
+	  
+	      <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/Soldadura.png" class="gall_item"><img src="images/Soldadura.png" alt=""></a>
+            <div class="gall_bot">
+			<br>
+            <div class="text1">Soldadura e PCB´s</a></div>
+            Terça-feira de  Tarde 14h00
+                <br>
+				Lab 3.1 ed.X
+			 <br>  <br>
+			 Gostas de electrónica, criar circuitos e ver em primeira mão o seu funcionamento? Então este workshop é para ti! Os circuitos com fios são engraçados mas nem sempre muito práticos, ai surgem as PCBs. Neste workshop vais começar por aprender a projectar uma PCB, usando o software Eagle, que cuidados a ter ao criar uma PCB e como passar do papel ao circuito físico.Para além disso vais aprender as técnicas de soldadura adequadas, que ferramentas são mais apropriadas e que cuidados se deve ter a soldar componentes numa PCB. 
+			 <br>
+		   <a href="" class="btn">Esgotado</a>
+        
+           </div>
+          </div>
+        </div>
+		
+      </div>
+	  
+	   <div class="clear sep__1"></div>
+	  <h2><center> Quarta-feira</center></h2>
+	   <br>
+        <div class="grid_2" >
+      </div>
+	     <div class="grid_2" >
+      </div>
+   
+       
+	  
+	    <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/Outsystems.png" class="gall_item"><img src="images/Outsystems.png" alt=""></a>
+            <div class="gall_bot">
+			<br>
+            <div class="text1">Outsystems</a></div>
+            Quarta-feira de  manhâ 9h00
+                 <br>
+				Lab 3.1 ed.X
+			 <br>  
+		  <a href="" class="btn">Esgotado</a>
+        
+           </div>
+          </div>
+        </div>
+		
+      </div>
+	  
+	  
+	  
+
+	  
+    </div>
+  </div>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer" style="background-color:#282828;" >
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">  
+        <div class="socials">
+            <a href="https://www.facebook.com/jortecelectro/?fref=ts" class="fa fa-facebook"></a>
+            <a href="https://www.youtube.com/channel/UCRwxOBGDs3SD7KC1JlD8Vrw" class="fa fa-youtube"></a>
+            <a href="https://www.linkedin.com/company/2588092?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A2588092%2Cidx%3A3-1-6%2CtarId%3A1484069056550%2Ctas%3Aneec" class="fa fa-linkedin"></a>
+            <a href="https://www.instagram.com/neecfct/" class="fa fa-instagram"></a>
+        </div>
+		 <div class="copyright"><span class="brand">NEEC FCT - Núcleo de Engenharia Electrotécnica e de Computadores  <a href="https://pt.linkedin.com/in/joaoveloso19" >J.Veloso</a> </span> &copy; <span id="copyright-year"></span>
+     
+        </div>
+      </div>
+    </div>
+  </div> 
+</footer> 
+</body>
+</html>
+

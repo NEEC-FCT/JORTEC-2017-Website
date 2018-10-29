@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Oradores</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/stuck.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/touchTouch.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<style>
+.dropbtn {
+    background-color: #282828;
+    color: #969696;
+    
+    padding: 0px 0px 0px;
+    border: none;
+    
+    display: inline-block;
+    
+    font: bold 20px/20px 'Economica', sans-serif;
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #282828;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+<script>
+ $(document).ready(function(){
+
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});
+  $('.gallery .gall_item').touchTouch();
+
+  }); 
+</script>
+<!--[if lt IE 9]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+
+
+<![endif]-->
+</head>
+
+<body>
+<!--==============================
+              header
+=================================-->
+<header style="background-color:#282828;">
+<!--==============================
+            Stuck menu
+=================================-->
+  <section id="stuck_container" style="background-color:#282828;">
+    <div class="container" style="background-color:#282828;">
+      <div class="row" style="background-color:#282828;">
+        <div class="grid_12">
+        <h1>
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo alt">
+          </a>
+        </h1>  
+          <div class="navigation ">
+            <nav>
+              <ul class="sf-menu">
+               <li><a href="index.html">Home</a></li>
+               <li class="current"><a href="index-1.html">    <font color="#9eefad" >Oradores</font>  </a></li>
+                             <li > <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn" >   Edições anteriores </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index-3.html#jortec16">JORTEC 2016</a>
+    <a href="index-3.html#jortec15">JORTEC 2015</a>
+    <a href="index-3.html#jortec14">JORTEC 2014</a>
+	 <a href="index-3.html#jortec13">JORTEC 2013</a>
+	  <a href="index-3.html#jortec12">JORTEC 2012</a>
+  </div>
+</div><a href="index-3.html">  </a></li>
+			   <li><a href="workshop.html">Workshops</a></li>
+			   <li><a href="patrocinadores.html">Sponsors</a></li>
+               <li><a href="index-4.html">Contactos</a></li>
+             </ul>
+            </nav>        
+            <div class="clear"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+</header>        
+
+<!--=====================
+          Content
+======================-->
+<section class="content gallery pad1"><div class="ic">More Website Templates @ TemplateMonster.com - July 30, 2014!</div>
+  <div class="container">
+    <div class="row">
+      <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/edp.png" class="gall_item"><img src="images/edp.png" alt=""></a>
+            <div class="gall_bot">
+            <div class="text1"><a href="https://www.edp.pt/">EDP</a></div>
+            <div class="text1"><a href="#"></a></div>
+         <br>
+            Fundada em 1976, a EDP – ENERGIAS DE PORTUGAL, S.A. é uma empresa do sector energético, sendo, atualmente, a maior produtora, distribuidora e comercializadora de electricidade em Portugal! Para além disso, mantém ainda operações significativas de electricidade e de gás em Espanha. É a terceira maior empresa de produção de electricidade e um dos maiores distribuidores de gás na Península Ibérica!
+            <br>
+            <br>
+            <br>
+             <a href="https://www.edp.pt/" class="btn">Site</a>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/kp.png" class="gall_item"><img src="images/kp.png" alt=""></a>
+            <div class="gall_bot">
+            <div class="text1"><a href="https://home.kpmg.com/xx/en/home.html">KPMG </a></div>
+           <br>
+           A KPMG é uma rede global de firmas profissionais que prestam serviços de auditoria, fiscalidade e consultoria. Operam em 152 países com 189 mil profissionais a trabalhar nas firmas membro a nível mundial. A KPMG em Portugal tem escritórios em Lisboa e no Porto com 46 sócios e mais de 1000 colaboradores.
+           <br> <br><br> <br> <br>
+            <a href="https://home.kpmg.com/xx/en/home.html" class="btn">Site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/hp.png" class="gall_item"><img src="images/hp.png" alt=""></a>
+            <div class="gall_bot">
+            <div class="text1"><a href="http://www.hp.com/">Hewlett Packard Enterprise</a></div>
+           
+            <br>
+			A Hewlett Packard Enterprise é uma empresa norte-americana focada no empreendimento, dividida em três grupos: Grupo Empresarial (servidores, armazenamento, networking, consultoria e suporte), Enterprise Services, Software e Serviços Financeiros.
+<br> <br> <br>   <br> <br>    <br>          
+			 <a href="http://www.hp.com/" class="btn">Site</a>  
+		   </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear sep__1"></div>
+      <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/vol.png" class="gall_item"><img src="images/vol.png" alt=""></a>
+            <div class="gall_bot">
+            <div class="text1"><a href="#">Volkswagen Autoeuropa</a></div>
+          <br>
+		  A Volkswagen Autoeuropa é uma das fábricas de produção automóvel do Grupo Volkswagen de origem alemã! Com sede na região de Palmela, começou a sua produção efectiva em 1995! Representa o maior investimento estrangeiro até hoje feito em Portugal, tendo um impacto muito positivo na economia nacional e regional. A empresa incorpora os valores estabelecidos pela Volkswagen: criação de valor, inovação e responsabilidade.
+  <br> <br>	 <br>	 <br>	<br>		  
+		  <a href="http://www.volkswagen.pt/" class="btn">Site</a>  
+            <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/nova.png" class="gall_item"><img src="images/nova.png" alt=""></a>
+            <div class="gall_bot">
+            <div class="text1"><a href="#">Novabase Portugal</a></div>
+          <br>
+		  Em 1989, a Novabase Portugal surge como software-house, especialista no desenvolvimento de soluções à medida. Actualmente, atua nas indústrias de Energia, Serviços Financeiros, Governo, Telecomunicações e Transportes. As suas áreas de negócio são Celfocus, Financial Services Business Solutions, Government, Transports and Energy Business Solutions, Neotalent e Venture Capital. A visão da Novabase é tornar a vida das pessoas e das empresas mais simples e mais feliz, através da utilização da tecnologia. À engenharia e à gestão junta as ciências humanas e o design para criar soluções centradas nas pessoas
+            <br><br>
+			 <a href="http://www.novabase.pt/pt" class="btn">Site</a>  
+            <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/teck.png" class="gall_item"><img src="images/teck.png" alt=""></a>
+            <div class="gall_bot">
+            <div class="text1"><a href="#">TEKEVER</a></div>
+            <br>
+			A TEKEVER é uma empresa portuguesa, fundada em 2001 e sediada em Lisboa. O seu trabalho passa pelo desenvolvimento de tecnologias inovadoras nas áreas de Tecnologia de Informação, Aeroespacial, Defesa e Segurança! Atualmente, já é uma empresa internacionalizada, sendo que trabalha para a Europa, Ásia e América Norte e Sul, com foco no desenvolvimento de tecnologias inovadoras, criação e distribuição de produtos, suporte de parceiros e atendimento a clientes em todo o mundo.
+			
+			<br><br><br><br>
+			 <a href="http://www.tekever.com/" class="btn">Site</a>  
+            <br>
+           </div>
+          </div>
+        </div>
+      </div>
+      <div class="clear sep__1"></div>
+      <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/google.png" class="gall_item"><img src="images/google.png" alt=""></a>
+            <div class="gall_bot">
+            <div class="text1"><a href="#">Google</a></div>
+          <br>
+		  A Google é uma empresa focada em serviços de pesquisa, sendo amplamente reconhecido como “o melhor motor de busca do mundo”, por ser rápido, preciso e fácil de usar! Opera em vários domínios internacionais, sendo o www.google.com o que tem maior tráfego. A empresa também trabalha clientes corporativos, incluindo anunciantes, editores de conteúdo e gestores de sites com publicidade e uma ampla gama de serviços de procura geradora de receita. Através da tecnologia avançada da Google e a sua contínua inovação, a empresa tem como missão “organizar a informação mundial e torná-la universalmente acessível e útil”!
+		  <br><br>
+			 <a href="http://www.google.com/" class="btn">Site</a>  
+            <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/cern.png" class="gall_item"><img src="images/cern.png" alt=""></a>
+            <div class="gall_bot">
+            <div class="text1"><a href="#">Cern</a></div>
+            
+            <br>
+            O CERN, a Organização Europeia para a Investigação Nuclear, é um dos maiores e mais respeitados centros de investigação científica do mundo! O seu interesse é a física fundamental, descobrir como é que o Universo é feito e como é que este funciona. O estudo dos constituintes básicos da matéria e da antimatéria, com a utilização dos maiores e mais complexos instrumentos científicos do mundo, permite a demonstração e a descoberta de leis da Natureza.
+            <br><br>
+            <br><br><br><br>
+            <a href="http://home.cern" class="btn">Site</a>
+            <br>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="grid_4">
+        <div class="gall_block">
+          <div class="maxheight">
+            <a href="images/schn.png" class="gall_item"><img src="images/schn.png" alt=""></a>
+            <div class="gall_bot">
+            <div class="text1"><a href="#">Schneider Electric</a></div>
+            <br>
+            A Schneider Electric desenvolve tecnologias e soluções conectadas para gerir a energia e processos de uma forma segura, fiável, eficiente e sustentável!
+         
+         <br><br><br><br><br><br><br><br><br><br><br><br>
+         <a href="http://www.schneider-electric.com/ww/en/" class="btn">Site</a>
+         <br>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    
+    
+    
+    
+    
+    
+    <div class="clear sep__1"></div>
+    
+    
+    <div class="grid_2">
+   
+    </div>
+     <center>
+    <div class="grid_4">
+     <div class="gall_block">
+            <div class="maxheight">
+                <a href="images/ieee.png" class="gall_item"><img src="images/ieee.png" alt=""></a>
+                <div class="gall_bot">
+                    <div class="text1"><a href="#">IEEE</a></div>
+                    <br>
+                O IEEE Portugal pertence à Região 8 (Europa, Médio Oriente, África e Rússia) do IEEE e faz parte de um universo de milhares de membros formados por profissionais de diferentes áreas da tecnologia, para além de uma crescente comunidade de estudantes de diferentes instituições do ensino superior!
+                    <br><br>
+                    <a href="https://www.ieee.org/index.html" class="btn">Site</a>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="grid_4">
+        <div class="gall_block">
+            <div class="maxheight">
+                <a href="images/vodafone.png" class="gall_item"><img src="images/vodafone.png" alt=""></a>
+                <div class="gall_bot">
+                    <div class="text1"><a href="#">Vodafone</a></div>
+                    <br>
+                A Vodafone Portugal é a empresa de telecomunicações móveis com maior presença a nível mundial! Em Março de 2012, contava com uma base de 404 milhões de clientes em mais de 30 países, estando a marca também presente em mais 40 países através de redes parceiras.
+                    <br><br><br>
+                    <a href="http://www.vodafone.pt/" class="btn">Site</a>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </div>
+   </center>
+    
+  </div>
+  
+  
+  </div>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer"  style="background-color:#282828;">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">  
+        <div class="socials">
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-youtube"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+          <a href="#" class="fa fa-instagram"></a>
+        </div>
+     <div class="copyright"><span class="brand">NEEC FCT - Núcleo de Engenharia Electrotécnica e de Computadores  <a href="#" >J.Veloso</a> </span> &copy; <span id="copyright-year"></span>
+       </div>
+      </div>
+    </div>
+  </div> 
+</footer> 
+</body>
+</html>
+

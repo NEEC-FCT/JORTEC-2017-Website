@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Jortec 2017</title>
+<meta charset="utf-8">
+<meta name = "format-detection" content = "telephone=no" />
+<link rel="icon" href="images/favicon.ico">
+<link rel="shortcut icon" href="images/favicon.ico" />
+<link rel="stylesheet" href="css/stuck.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/touchTouch.css">
+<script src="js/jquery.js"></script>
+<script src="js/jquery-migrate-1.1.1.js"></script>
+<script src="js/script.js"></script> 
+<script src="js/superfish.js"></script>
+<script src="js/jquery.equalheights.js"></script>
+<script src="js/jquery.mobilemenu.js"></script>
+<script src="js/jquery.easing.1.3.js"></script>
+<script src="js/tmStickUp.js"></script>
+<script src="js/jquery.ui.totop.js"></script>
+<script src="js/touchTouch.jquery.js"></script>
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+<style>
+.dropbtn {
+    background-color: #282828;
+    color: #969696;
+    
+    padding: 0px 0px 0px;
+    border: none;
+    
+    display: inline-block;
+    
+    font: bold 20px/20px 'Economica', sans-serif;
+    
+}
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #282828;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown a:hover {background-color: #f1f1f1}
+
+.show {display:block;}
+</style>
+<script>
+ $(document).ready(function(){
+
+  $().UItoTop({ easingType: 'easeOutQuart' });
+  $('#stuck_container').tmStickUp({});
+  $('.gallery .gall_item').touchTouch();
+
+  }); 
+</script>
+<!--[if lt IE 9]>
+ <div style=' clear: both; text-align:center; position: relative;'>
+   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+   </a>
+</div>
+<script src="js/html5shiv.js"></script>
+<link rel="stylesheet" media="screen" href="css/ie.css">
+
+
+<![endif]-->
+</head>
+
+<body class="page1" id="top"  style="background-color:#282828;">
+<!--==============================
+              header
+=================================-->
+<header    style="background-color:#282828;">
+<!--==============================
+            Stuck menu
+=================================-->
+  <section id="stuck_container"  style="background-color:#282828;" >
+    <div class="container" style="background-color:#282828;">
+      <div class="row"   style="background-color:#282828;" >
+        <div class="grid_12"   >
+        <h1>
+          <a href="index.html">
+            <img src="images/logo.png" alt="Logo alt" >
+          </a>
+        </h1>  
+          <div class="navigation" >
+            <nav>
+              <ul class="sf-menu" >
+               <li class="current"  <a href="index.html">    <font color="#9eefad" > Home</font>     </a></li>
+               <li><a href="index-1.html">Oradores</a></li>
+               <li > <div class="dropdown">
+  <button onclick="myFunction()" class="dropbtn" >   Edições anteriores </button>
+  <div id="myDropdown" class="dropdown-content">
+    <a href="index-3.html#jortec16">JORTEC 2016</a>
+    <a href="index-3.html#jortec15">JORTEC 2015</a>
+    <a href="index-3.html#jortec14">JORTEC 2014</a>
+	 <a href="index-3.html#jortec13">JORTEC 2013</a>
+	  <a href="index-3.html#jortec12">JORTEC 2012</a>
+  </div>
+</div><a href="index-3.html">  </a></li>
+			   <li><a href="workshop.html">Workshops</a></li>
+			   <li><a href="patrocinadores.html">Sponsors</a></li>
+               <li><a href="index-4.html">Contactos</a></li>
+             </ul>
+            </nav>        
+            <div class="clear" ></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> 
+</header>        
+
+<!--=====================
+          Content
+======================-->
+<section class="content"><div class="ic"> JORTEC</div>
+  <div class="container">
+    <div class="row">
+      <div class="grid_4">
+        <div class="banner">
+		  <div class="gall_block">
+          <img src="images/page1_img1.jpg" alt="">
+          <div class="bann_capt ">
+            <div class="maxheight">
+			<br>
+			
+              <img src="images/icon1.png" alt="">
+              <div class="bann_title">Oradores</div>
+			  
+              <a href="index-1.html">mais</a>
+            </div>
+          </div>
+        </div>
+	   </div>
+      </div>
+      <div class="grid_4">
+        <div class="banner">
+		  <div class="gall_block">
+          <div class="bann_capt  bn__2">
+            <div class="maxheight">
+			<br>
+              <img src="images/icon2.png" alt="">
+              <div class="bann_title">Guarda o Teu Lugar</div>
+              <a href="https://docs.google.com/forms/d/1PuhdDeTjKelNAgRZ5A0XNaOn-Vwu359b4UUWPvGj2Do/edit?ts=587a9f4b"><font size="8">Inscreve-te Aqui!</font> </a>
+            </div>
+          </div>
+          <img src="images/page1_img2.jpg" alt="">
+        </div>
+		</div>
+      </div>
+      <div class="grid_4">
+        <div class="banner " >
+		  <div class="gall_block" >
+		  
+          <img src="images/page1_img3.jpg" alt="">
+		  
+          <div class="bann_capt  bn__1">
+            <div class="maxheight">
+			<br>
+              <img src="images/icon3.png" alt="">
+              <div class="bann_title">Workshops </div>
+              <a href="workshop.html">mais</a>
+            </div>
+          </div>
+		  </div>
+        </div>
+      </div>
+    
+      <div class="grid_12">
+        
+      </div>
+     
+      <div class="grid_12">
+        <div class="box">
+          <div class="row">
+            <div class="grid_5 preffix_1">
+              <h2>Programa</h2>
+         
+            <br> Podes consular no link abaixo <br> E no horário no final da página<br><br><br><br><br>
+              <a href="images/CartazPrincipal.jpg" class="btn">Programa</a>
+            </div>
+            <div class="grid_5">
+              <h2>Quem Somos</h2>
+           O Núcleo de Engenharia Eletrotécnica e de Computadores (NEEC) da Faculdade de Ciências e Tecnologia é uma associação sem fins lucrativos composto pelos estudantes de MiEEC da FCT. O NEEC-FCT é atualmente constituído por 50 estudantes de electrotécnica do 1º ao 5º ano que trabalham continuamente para dinamizar o núcleo. <br>
+            Temos como objetivo apoiar, integrar e unir todos os estudantes de Engenharia Eletrotécnica e de Computadores.
+			<br>
+			<a href="http://www.neec-fct.com/" class="btn">site</a>
+            </div>
+          </div>
+        </div>
+      </div>
+	  
+	  
+	   
+	         <div class="grid_12" >
+        <div class="box" style="background-color:#6aceb6;" >
+          <div class="row" >
+            <div class="grid_6 preffix_3" style="background-color:#6aceb6;">
+			
+              <center><h2>   <font color="white">Plataforma NEEC+</font>  </h2>
+         
+           <font color="white">Submete aqui o teu CV e fá-lo-emos chegar às empresas com quem trabalhamos!!! <br> O objectivo é ajudar-te a chegar às empresas! Aproveita para conhecê-las e habilitar-te a grandes oportunidades!!
+ <br>Esta plataforma está disponível para todos os alunos da FCT, de qualquer curso. Se tiveres interessado/a basta fazeres o upload do teu CV, e nós tratamos do resto!!</font> <br>
+		   
+              <a href="http://www.neec-fct.com/plataformaneec/" class="btn" > <font color="white">Link</font> </a>
+            </div>
+  </center>
+          </div>
+        </div>
+      </div>
+	  
+	  
+	  
+	  
+	  
+	     <div class="grid_12" >
+        <div class="box" style="background-color:#dbad06;" >
+          <div class="row" >
+            <div class="grid_6 preffix_3" style="background-color:#dbad06;">
+			
+              <center><h2>   <font color="white">APP Jortec Eletro</font>  </h2>
+         
+           <font color="white">Descarrega a APP Jortec Eletro na Play Store!
+É grátis, interativa e promete muitas novidades!
+Habilita-te a ganhar 50€ em cartão Fnac no nosso passatempo!
+Descobre tudo na APP e boa sorte<br>
+   <a href="https://play.google.com/store/apps/details?id=com.fct.neec.jorteceletro&hl=pt_PT" class="btn" > <font color="white">Download</font> </a>
+
+ 
+		   
+             
+            </div>
+  </center>
+          </div>
+        </div>
+      </div>
+	  
+	  
+	  
+	  
+	
+	  
+      <div class="grid_4">
+	
+        <h2>Local e Data</h2>
+		<br>
+		<br>
+	
+        <div class="block2">
+          <time datetime="2017-02-09">9<br>Fev.</time>
+          <div class="extra_wrapper">
+            <div class="text1"><a href="http://www.fct.unl.pt/faculdade/planta-do-campus"> <font color="black">Auditorio caixa geral de depositos</a></div>O evento começará as 9:00</font>
+          </div>
+        </div>
+
+      </div>
+      <div class="grid_4">
+        <h2>Horário</h2>
+        <ul class="shed">
+		 <li><span>Check in:</span> 9AM - 9:45AM</li>
+         <li><span>Autoeuropa:</span> 9:45AM - 10:15AM</li>
+         <li> <span>Hewlett:</span>10:15AM - 10:45AM</li>
+           <li><span>Coffe Break:</span> 10:45AM - 11:00AM</li>
+             <li><span>CERN:</span> 11:00AM - 11:30AM</li>
+               <li><span>Vodafone:</span> 11:30AM - 12:00AM</li>
+                 <li><span>KPMG:</span> 12:00AM - 12:30AM</li>
+                   <li><span>Almoço:</span> 12:30AM - 14:00PM</li>
+        </ul>
+      </div>
+	  
+	    <div class="grid_4">
+        <h2> <br> </h2>
+        <ul class="shed">
+            <li><span>Novabase:</span> 14:00PM - 14:40PM</li>
+            <li><span>Google:</span> 14:40PM - 15:20PM</li>
+            <li><span>EDP:</span> 15:20PM - 15:40PM</li>
+            <li><span>Coffe Break:</span> 15:40PM - 16:00PM</li>
+            <li><span>IEEE:</span> 16:00PM - 16:20PM</li>
+            <li><span>Schneider:</span> 16:20PM - 16:40PM</li>
+            <li><span>Tekever:</span> 16:40PM - 17:00PM</li>
+            <li><span>Encerramento:</span>17:00PM</li>
+        </ul>
+      </div>
+	  
+	  
+    </div>
+  </div>
+</section>
+<!--==============================
+              footer
+=================================-->
+<footer id="footer" style="background-color:#282828;">
+  <div class="container">
+    <div class="row">
+      <div class="grid_12">  
+        <div class="socials">
+          <a href="https://www.facebook.com/jortecelectro/?fref=ts" class="fa fa-facebook"></a>
+          <a href="https://www.youtube.com/channel/UCRwxOBGDs3SD7KC1JlD8Vrw" class="fa fa-youtube"></a>
+          <a href="https://www.linkedin.com/company/2588092?trk=tyah&trkInfo=clickedVertical%3Acompany%2CclickedEntityId%3A2588092%2Cidx%3A3-1-6%2CtarId%3A1484069056550%2Ctas%3Aneec" class="fa fa-linkedin"></a>
+          <a href="https://www.instagram.com/neecfct/" class="fa fa-instagram"></a>
+        </div>
+		 <div class="copyright"><span class="brand">NEEC FCT - Núcleo de Engenharia Electrotécnica e de Computadores   <a href="https://pt.linkedin.com/in/joaoveloso19" >J.Veloso</a> </span> &copy; <span id="copyright-year">   </span>
+        </div>
+        
+      </div>
+    </div>
+  </div> 
+</footer> 
+</body>
+</html>
+
